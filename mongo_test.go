@@ -3,7 +3,7 @@ package sessions
 import (
 	"testing"
 
-	mgo "gopkg.in/mgo.v2"
+	mgo "github.com/globalsign/mgo"
 )
 
 const mongoTestServer = "localhost:27017"
