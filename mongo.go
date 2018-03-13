@@ -1,9 +1,9 @@
 package sessions
 
 import (
+	"github.com/anti-peng/mongostore"
 	mgo "github.com/globalsign/mgo"
 	"github.com/gorilla/sessions"
-	"github.com/kidstuff/mongostore"
 )
 
 type MongoStore interface {
